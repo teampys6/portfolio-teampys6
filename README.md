@@ -10,6 +10,7 @@
 - Primeiro, fiz um design exemplo pelo figma, nesse link: https://www.figma.com/file/39Yw8IT0Tn1PgV29mC6Axm/Portf%C3%B3lio?type=design&node-id=0-1&mode=design&t=3h92CNGCFKyooNO6-0.
 - Segundo, comecei fazendo os textos da primeira página usando apenas HTML.
 - Terceiro, coloquei todo conteúdo dentro de container e centralizei esse container usando flexbox.
+- Quarto e último, finalizei o site refazendo a navbar responsiva, no caso, fazendo o hamburger da navbar. 
 - É isso.
 
 ## Linguagens usadas
