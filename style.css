@@ -10,6 +10,11 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  font-family: 'Inter';
+  color: #fff;
+}
+
 body {
   height: 100%;
   background: linear-gradient(300deg, #331D2C, #3F2E3E, #A78295);
@@ -159,7 +164,7 @@ h1 {
 
 .circles {
   cursor: pointer;
-  background-color: #786776;
+  background-color: #443041;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -245,7 +250,7 @@ h1 {
 }
 
 .titles-projects {
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 20px;
   font-weight: 600;
 }
@@ -258,7 +263,7 @@ h1 {
 .rectangles-proj {
   width: 300px;
   height: 320px;
-  background-color: #786776;
+  background-color: #443041;
   border-radius: 5px;
   transition: all .4s ease;
 }
@@ -285,9 +290,13 @@ h1 {
   width: 145px;
   height: 40px;
   border-radius: 5px;
-  background-color: #5C485A;
+  background-color: #443041;
   border: 1px solid #786776;
   transition: all .4s ease;
+}
+
+.links-projects {
+  display: none;
 }
 
 .buttons-proj:hover {
@@ -323,7 +332,7 @@ h1 {
   align-items: center;
   width: 90px;
   height: 90px;
-  background-color: #5C485A;
+  background-color: #443041;
 }
 
 .images {
@@ -393,6 +402,13 @@ footer {
 
   .buttons-projects {
     display: none;
+  }
+
+  .links-projects {
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    text-decoration: underline;
   }
 
   .rectangles {
