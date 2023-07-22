@@ -33,7 +33,7 @@ h1 {
   background-color: #443041;
   position: fixed;
   width: 100%;
-  z-index: 999;
+  z-index: 1;
   top: 0;
 }
 
