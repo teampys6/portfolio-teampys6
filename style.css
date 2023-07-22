@@ -116,6 +116,7 @@ h1 {
 }
 
 .image-me {
+  user-select: none;
   border-radius: 50%;
   border: 1px solid #EFE1D1;
   padding: 2px;
